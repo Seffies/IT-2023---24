@@ -1,0 +1,9 @@
+FUNCTION høyeste (liste)
+  SET høyest TO første tall i liste
+  FOR hvert tall i liste
+    IF tall GREATER THAN høyest
+      SET høyest TO tall
+    END IF
+  END FOR
+  RETURN høyest
+END FUNCTION

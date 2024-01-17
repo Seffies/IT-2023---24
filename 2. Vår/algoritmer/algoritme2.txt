@@ -1,0 +1,9 @@
+FUNCTION gjennomsnitt (liste)
+  SET total TO 0
+  SET antall to 0
+  FOR hvert tall i liste
+    SET total TO total + tall
+    SET antall TO antall + 1
+  END FOR
+  RETURN total / antall
+END FUNCTION

@@ -1,0 +1,9 @@
+PYTHON
+
+personer = {
+   "Thor": 33,
+   "Ravi": 39
+}
+personer_sortert = sorted(personer.items(), key=lambda person: person[1], reverse=True)
+print(personer_sortert) # -> [('Ravi', 39), ('Thor', 33)]
+print(personer_sortert[0][0]) # -> 'Ravi'

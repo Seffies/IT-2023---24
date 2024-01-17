@@ -1,0 +1,13 @@
+FUNCTION nest_høyest (liste)
+  SET høyest TO uendelig negativt tall
+  SET nest_høyest TO uendelig negativt tall
+  FOR hvert tall i liste
+    IF tall GREATER THAN høyest
+      SET nest_høyest TO høyest
+      SET høyest TO tall
+    ELSE IF tall GREATER THAN nest_høyest
+      SET nest_høyest TO tall
+    END IF
+  END FOR
+  RETURN nest_høyest
+END FUNCTION

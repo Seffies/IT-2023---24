@@ -126,3 +126,28 @@ Bruk forrgie funksjon også setter du inn i en forløkke
 ```
 > OBS: Du kan bruke din egen standard for pseudokode, bare den er hensiktsmessig.
 
+## Oppgave 9
+ 
+- [x] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+ 
+## Oppgave 10
+ 
+1-F
+2-H
+3-A
+4-B
+5-C
+6-G
+7-E
+8-D
+ 
+ 
+## Oppgave 11
+ 
+- [ ] 1
+- [x] 2
+- [ ] 3
+- [x] 4

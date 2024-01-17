@@ -1,0 +1,9 @@
+FUNCTION n_høyeste (liste, n)
+  SET høyeste_n TO en tom liste
+  FOR EACH i FROM 0 TO lengden av liste - 1
+    SET høyest TO høyeste(liste)
+    REMOVE høyest FROM liste
+    ADD høyest TO høyeste_n
+  END FOR
+  RETURN nest_høyest
+END FUNCTION

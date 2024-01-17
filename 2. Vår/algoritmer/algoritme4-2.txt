@@ -1,0 +1,4 @@
+FUNCTION n_høyeste (liste, n)
+  Sorter liste i synkende rekkefølge
+  RETURN n siste elemenetene i liste
+END FUNCTION

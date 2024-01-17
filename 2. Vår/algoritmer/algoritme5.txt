@@ -1,0 +1,15 @@
+PYTHON
+
+personer = [
+   {
+      "navn": "Thor",
+      "alder": 33
+   },
+   {
+      "navn": "Ravi",
+      "alder": 39
+   }
+]
+
+personer_sortert = sorted(personer, key=lambda person: person['alder'], reverse=True)
+print(personer_sortert) # -> [{'navn': 'Ravi', 'alder': 39}, {'navn': 'Thor', 'alder': 33}]
